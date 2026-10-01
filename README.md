@@ -106,14 +106,6 @@ output to any Cloudflare Workers-compatible host. The build writes
 `.openai/hosting.json` is intentionally empty of a project id so the first
 publish creates **your own** Sites project rather than reusing anyone else's.
 
-## Included email-sending skill template
-
-This repository also includes a reusable template for adapting an email-sending
-skill to another platform, with evidence-first workflow and safety checks:
-
-- [`Email-Sending-Skill copy.md`](./resources/email-sending-skill/Email-Sending-Skill%20copy.md)
-- [`README.md`](./resources/email-sending-skill/README.md)
-
 ---
 
 ## Project shape

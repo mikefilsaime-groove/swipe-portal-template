@@ -126,7 +126,7 @@ test("ships no personal or brand-specific data", async () => {
   }
 
   const files = [];
-  for (const dir of ["app", "worker", "db", "build", "examples", "resources"]) {
+  for (const dir of ["app", "worker", "db", "build", "examples"]) {
     files.push(...(await collect(dir)));
   }
 
